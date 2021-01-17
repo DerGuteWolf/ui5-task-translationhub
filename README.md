@@ -27,7 +27,7 @@ A custom task for [ui5-builder](https://github.com/SAP/ui5-builder) which allows
 ```json
 "devDependencies": {
     // ...
-    "ui5-task-translationhub": "*"
+    "ui5-task-translationhub": "DerGuteWolf/ui5-task-translationhub"
     // ...
 },
 "ui5": {
@@ -59,7 +59,7 @@ builder:
           it_IT: it
           pt_BR: pt
 ```
-3. Add username (environment variable `UI5_TASK_TRANSLATIONHUB_USERNAME`) and password (environment variable `UI5_TASK_TRANSLATIONHUB_PASSWORD`) which should be used to access the Translation Hub API in in `$yourapp/.env`. Add .env to your .gitignore file.
+3. Add username (environment variable `UI5_TASK_TRANSLATIONHUB_USERNAME`) and password (environment variable `UI5_TASK_TRANSLATIONHUB_PASSWORD`) which should be used to access the Translation Hub API in in `$yourapp/.env` file. Add .env to your .gitignore file to make sure to never commit the credentials.
 
 ## How to obtain support
 In case you need any support, please create a GitHub issue.
