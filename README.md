@@ -15,6 +15,10 @@ A custom task for [ui5-builder](https://github.com/SAP/ui5-builder) which allows
 - duplicate: `object` (optional)
   Use this if you want files delivered from the translation Hub duplicated to other locales. See below for examples. 
 - debug: `boolean` (optional)
+- timeout: `number` (optional)
+  timeout value in Milliseconds to use for normal Calls to Translation Hub API (default: 1000)
+- timeoutUpDown: `number` (optional)
+  timeout value in Milliseconds to use for Up- and Download Calls to Translation Hub API (default: 30000)  
   
 ## Usage
 
