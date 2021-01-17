@@ -1,7 +1,7 @@
 {
     "name": "ui5-task-translationhub",
     "version": "1.0.0",
-    "description": "Custom task for ui5-builder which ",
+    "description": "Custom task for ui5-builder which allows automated upload, translation and download of i18n properties files to/from SAP Translation Hub Service",
     "main": "index.js",
     "scripts": {
         "preversion": "npm test",
