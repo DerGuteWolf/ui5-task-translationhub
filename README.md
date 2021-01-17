@@ -47,7 +47,7 @@ A custom task for [ui5-builder](https://github.com/SAP/ui5-builder) which allows
 builder:
   customTasks:
     - name: ui5-task-translationhub
-      afterTask: generateCachebusterInfo
+      beforeTask: escapeNonAsciiCharacters
       configuration:
         hostName: sap...
         projectID: 00000
