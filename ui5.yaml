@@ -1,0 +1,9 @@
+---
+# Task extension as part of your project
+specVersion: "2.2"
+kind: extension
+type: task
+metadata:
+  name: ui5-task-translationhub
+task:
+  path: lib/tasks/translationhub.js
