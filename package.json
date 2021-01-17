@@ -23,6 +23,7 @@
     "author": "Wolfgang Röckelein",
     "license": "Apache-2.0",
     "dependencies": {
+        "@ui5/fs": "2.0.6",
         "@ui5/logger": "2.0.1",
         "axios": "^0.21.1",
         "axios-cookiejar-support": "^1.0.1",
