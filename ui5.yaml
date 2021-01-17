@@ -6,4 +6,4 @@ type: task
 metadata:
   name: ui5-task-translationhub
 task:
-  path: lib/tasks/translationhub.js
+  path: lib/translationhub.js
