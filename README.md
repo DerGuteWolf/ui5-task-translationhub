@@ -2,7 +2,7 @@
 [![REUSE status](https://api.reuse.software/badge/github.com/DerGuteWolf/ui5-task-translationhub)](https://api.reuse.software/info/github.com/DerGuteWolf/ui5-task-translationhub)
 
 ## Description
-A custom task for [ui5-builder](https://github.com/SAP/ui5-builder) which allows automated upload, translation and download of i18n properties files to/from [SAP Translation Hub Service](https://help.sap.com/viewer/p/SAP_TRANSLATION_HUB)
+A custom task for [ui5-builder](https://github.com/SAP/ui5-builder) of [UI5 Tooling](https://sap.github.io/ui5-tooling/) which allows automated upload, translation and download of i18n properties files to/from [SAP Translation Hub Service](https://help.sap.com/viewer/p/SAP_TRANSLATION_HUB)
 
 ## Configuration options (in `$yourapp/ui5.yaml`)
 
