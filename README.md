@@ -2,9 +2,9 @@
 [![REUSE status](https://api.reuse.software/badge/github.com/DerGuteWolf/ui5-task-translationhub)](https://api.reuse.software/info/github.com/DerGuteWolf/ui5-task-translationhub)
 
 ## Description
-A custom task for [ui5-builder](https://github.com/SAP/ui5-builder) of [UI5 Tooling](https://sap.github.io/ui5-tooling/) which allows automated upload, translation and download of i18n properties files to/from [SAP Translation Hub Service](https://help.sap.com/viewer/p/SAP_TRANSLATION_HUB)
+A custom task for [ui5-builder](https://github.com/SAP/ui5-builder) of [UI5 Tooling](https://sap.github.io/ui5-tooling/) which allows automated upload, translation and download of i18n properties files to/from [SAP Translation Hub Service](https://help.sap.com/viewer/p/SAP_TRANSLATION_HUB) .
 
-## Configuration options (in `$yourapp/ui5.yaml`)
+## Configuration options (in `$yourapp/ui5-deploy.yaml`)
 
 - hostName: `string`
   The first part of the hostname of your translation hub instance, cf. [Building Base URL of SAP Translation Hub](https://help.sap.com/viewer/ed6ce7a29bdd42169f5f0d7868bce6eb/Cloud/en-US/3a011fba82644259a2cc3c919863f4b4.html).
@@ -41,7 +41,9 @@ A custom task for [ui5-builder](https://github.com/SAP/ui5-builder) of [UI5 Tool
 
 > As the devDependencies are not recognized by the UI5 tooling, they need to be listed in the `ui5 > dependencies` array. In addition, once using the `ui5 > dependencies` array you need to list all UI5 tooling relevant dependencies.
 
-2. configure it in `$yourapp/ui5.yaml` (cf. Configuration Options above):
+2. configure it in `$yourapp/ui5-deploy.yaml` (cf. Configuration Options above):
+
+If you do not have the `$yourapp/ui5-deploy.yaml` file already, it can be generated with `npx fiori add deploy-config` command.
 
 ```yaml
 builder:
@@ -59,6 +61,7 @@ builder:
           it_IT: it
           pt_BR: pt
 ```
+
 3. Add username (environment variable `UI5_TASK_TRANSLATIONHUB_USERNAME`) and password (environment variable `UI5_TASK_TRANSLATIONHUB_PASSWORD`) which should be used to access the Translation Hub API in in `$yourapp/.env` file. Add .env to your .gitignore file to make sure to never commit the credentials.
 
 ## How to obtain support
