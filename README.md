@@ -74,3 +74,5 @@ When you like this stuff, buy @DerGuteWolf a beer.
 
 ## Release History
 See [CHANGELOG.md](CHANGELOG.md).
+
+## See also https://github.com/DerGuteWolf/ABAP_TRANSLATION_HUB
