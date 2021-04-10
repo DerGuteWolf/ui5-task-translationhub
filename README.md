@@ -8,17 +8,20 @@ A custom task for [ui5-builder](https://github.com/SAP/ui5-builder) of [UI5 Tool
 
 - hostName: `string`
   The first part of the hostname of your translation hub instance, cf. [Building Base URL of SAP Translation Hub](https://help.sap.com/viewer/ed6ce7a29bdd42169f5f0d7868bce6eb/Cloud/en-US/3a011fba82644259a2cc3c919863f4b4.html).
-  - For Enterprise accounts use `sap<technical name of provider subaccount>-<technical name of subscription subaccount>.<region host without .ondemand.com part>`
-  - For Trial accounts use `saptranslation-<technical name of subaccount>.hanatrial`
+  - For enterprise accounts use `sap<technical name of provider subaccount>-<technical name of subscription subaccount>.<region host without .ondemand.com part>`
+  - For trial accounts use `saptranslation-<technical name of subaccount>.hanatrial`
 - projectID: `string`
-  The <translation project ID> of a File Translation Project for java style properties files
+  The <translation project ID> of a file translation project for java style properties files
 - duplicate: `object` (optional)
-  Use this if you want files delivered from the translation Hub duplicated to other locales. See below for examples. 
+  Use this if you want files delivered from the translation hub duplicated to other locales. See below for examples. 
 - debug: `boolean` (optional)
 - timeout: `number` (optional)
-  timeout value in Milliseconds to use for normal Calls to Translation Hub API (default: 1000)
+  timeout value in milliseconds to use for normal Calls to Translation Hub API (default: 1000)
 - timeoutUpDown: `number` (optional)
-  timeout value in Milliseconds to use for Up- and Download Calls to Translation Hub API (default: 30000)  
+  timeout value in milliseconds to use for Up- and Download Calls to Translation Hub API (default: 30000)
+- retryDelay: `number` (optional)
+  retry delay value in milliseconds to use in case of complaint of parallel translation tasks (default: 3000)
+  
   
 ## Usage
 
