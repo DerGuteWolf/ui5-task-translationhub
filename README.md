@@ -65,7 +65,7 @@ builder:
           pt_BR: pt
 ```
 
-3. Add username (environment variable `UI5_TASK_TRANSLATIONHUB_USERNAME`) and password (environment variable `UI5_TASK_TRANSLATIONHUB_PASSWORD`) which should be used to access the Translation Hub API in in `$yourapp/.env` file. Add .env to your .gitignore file to make sure to never commit the credentials.
+3. Add username (environment variable `UI5_TASK_TRANSLATIONHUB_USERNAME`) and password (environment variable `UI5_TASK_TRANSLATIONHUB_PASSWORD`) which should be used to access the Translation Hub API in in `$yourapp/.env` file. Add .env to your .gitignore file to make sure to never commit the credentials. If you have already a SAP Universal ID, pay attention to Note [3085908](https://launchpad.support.sap.com/#/notes/3085908) and use your account password and not your Universal ID password if they differ.
 
 ## How to obtain support
 In case you need any support, please create a GitHub issue.
