@@ -24,7 +24,7 @@
     "license": "Apache-2.0",
     "dependencies": {
         "@ui5/fs": "^3.0.5",
-	"@ui5/logger": "^3.0.0",
+        "@ui5/logger": "^3.0.0",
         "axios": "^1.6.2",
         "axios-cookiejar-support": "^4.0.7",
         "tough-cookie": "^4.1.3",
