@@ -30,19 +30,10 @@ A custom task for [ui5-builder](https://github.com/SAP/ui5-builder) of [UI5 Tool
 ```json
 "devDependencies": {
     // ...
-    "ui5-task-translationhub": "DerGuteWolf/ui5-task-translationhub#semver:^1.0.0"
+    "ui5-task-translationhub": "DerGuteWolf/ui5-task-translationhub#semver:^1.0.3"
     // ...
 },
-"ui5": {
-  "dependencies": [
-    // ...
-    "ui5-task-translationhub",
-    // ...
-  ]
-}
 ```
-
-> As the devDependencies are not recognized by the UI5 tooling, they need to be listed in the `ui5 > dependencies` array. In addition, once using the `ui5 > dependencies` array you need to list all UI5 tooling relevant dependencies.
 
 2. configure it in `$yourapp/ui5-deploy.yaml` (cf. Configuration Options above):
 
