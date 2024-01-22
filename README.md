@@ -30,7 +30,7 @@ A custom task for [ui5-builder](https://github.com/SAP/ui5-builder) of [UI5 Tool
 ```json
 "devDependencies": {
     // ...
-    "ui5-task-translationhub": "DerGuteWolf/ui5-task-translationhub#semver:^1.0.3"
+    "ui5-task-translationhub": "DerGuteWolf/ui5-task-translationhub#semver:^1.0.4"
     // ...
 },
 ```
