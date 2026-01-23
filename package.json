@@ -23,8 +23,8 @@
     "author": "Wolfgang Röckelein",
     "license": "Apache-2.0",
     "dependencies": {
-        "@ui5/fs": "^3.0.5",
-        "@ui5/logger": "^3.0.0",
+        "@ui5/fs": "^4.0.4",
+        "@ui5/logger": "^4.0.2",
         "axios": "^1.6.2",
         "axios-cookiejar-support": "^4.0.7",
         "tough-cookie": "^4.1.3",
